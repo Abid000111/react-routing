@@ -5,6 +5,7 @@ function Header() {
 	return (
 		<>
 			<div className="bg-zinc-950 h-14 pl-7 flex items-center gap-7">
+				<Link href="/">Home</Link>
 				<Link href="/About">About</Link>
 				<Link href="/Product">Product</Link>
 				<Link href="/Courses">Courses</Link>
